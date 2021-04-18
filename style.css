@@ -6,6 +6,11 @@ body {
     text-align: center;
 }
 
+#post {
+    display: flex;
+    flex-direction: column;
+}
+
 .posts {
     border: 2px solid #8427db;
     border-radius: 25px;
