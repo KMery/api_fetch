@@ -1,3 +1,22 @@
 body {
     background-color: skyblue;
 }
+
+.container {
+    text-align: center;
+}
+
+.posts {
+    border: 2px solid #8427db;
+    border-radius: 25px;
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    /* flex-direction: row; */
+    justify-content: space-around;
+    font-size: 20px;
+}
+
+.posts img {
+    width: 100px;
+}
