@@ -6,6 +6,8 @@ let div_elem;
 let thumbnailUrl;
 let title;
 
+let amount_posts = 10;
+
 //Setear los datos
 const setData = (img_src, title_post) => {
     div_elem = document.createElement('div');
@@ -31,7 +33,7 @@ const getData = async () => {
             // console.log('Cantidad de datos obtenidos', json.length);
             let index = 0;
             for (const post of json) {
-                if (index < 6) {
+                if (index < amount_posts) {
                     console.log(index);
                     setData(post.thumbnailUrl, post.title);
                     appendData(thumbnailUrl, title);

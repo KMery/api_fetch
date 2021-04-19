@@ -1,12 +1,10 @@
 body {
-    background-color: skyblue;
+    background-color: rgb(178, 142, 243);
 }
 
 .container {
     text-align: center;
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center; */
+    font-family: 'Ubuntu Mono', monospace;
 }
 
 #post {
@@ -16,13 +14,11 @@ body {
 }
 
 .posts {
-    /* width: 80%; */
     border: 2px solid #8427db;
     border-radius: 25px;
     padding: 25px;
-    margin: 10px;
+    margin: 30px;
     display: flex;
-    /* flex-direction: row; */
     justify-content: space-around;
     font-size: 20px;
 }
