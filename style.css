@@ -4,14 +4,19 @@ body {
 
 .container {
     text-align: center;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
 }
 
 #post {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .posts {
+    /* width: 80%; */
     border: 2px solid #8427db;
     border-radius: 25px;
     padding: 25px;
@@ -24,4 +29,10 @@ body {
 
 .posts img {
     width: 100px;
+}
+
+.posts:hover {
+    background-color: rgba(219, 201, 219, 0.726);
+    font-size: 25px;
+    transition: .5 font-size;
 }
